@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Para Programadores</title>
+        <meta name=" description" content="Teste seus conhecimentos em programação com nosso quiz interativo!">
+    </head>
+    <body>
+        <header>
+            <h1>Quiz Interativo para Programadores</h1>
+            <p>Teste Seus Conhecimentos Em programação</p>
+        </header>
+        <main>
+            <!--Introdução-->
+            <section>
+                <h2>Sobre esse quiz</h2>
+                <p><strong>Este quiz</strong> é projetado para desafiar e aprimorar seus conhecimentos em várias <em>linguagens de programação</em> e conceitos de desenvolvimento de software. <Br>Prepare-se para responder a perguntas que abrangem desde fundamentos básicos até tópicos avançados.</p>
+                <p>Boa sorte e divirta-se!</p>
+            </section>
+            <!--Pergunta 1: Múltipla Escolha-->
+            <section>
+                <h2> Qual Linguagem é usada para estruturar páginas web?</h2>
+                <form>
+                    <input type="radio" value="python" id="pla" name="q1">
+                    <label for="pla">Python</label><br>
+                    <input type="radio" value="html" id="ple" name="q2">
+                    <label for="ple">HTML</label><br>
+                    <input type="radio" value="java" id="plu" name="q3">
+                    <label for="plu">Java</label><br>
+                    <input type="radio" value="c++" id="pli" name="q4">
+                    <label for="pli">C++</label><br>
+
+                </form>
+            </section>
+            <!--Pergunta 2: Texto-->
+            <section>
+                <h2> O que significa a sigla "OOP" em programação?</h2>
+                <form>
+                    <input type="text" id="pergunta2" name="resposta2" placeholder="Digite sua resposta aqui">
+                </form>
+            </section>
+            <!--Pergunta 3: Senha-->
+            <section>
+                <h2> Pergunta 3: Escreva um exemplo de senha forte</h2>
+                <form>
+                    <input type="password" id="resposta3" name="resposta3" placeholder="Digite sua senha aqui">
+                </form>
+            </section>
+            <!--Pergunta 4: Data-->
+            <section> 
+                <h2> Pergunta 4: Quando foi lançado o Python?</h2>
+                <form>
+                    <input type="date" id="pergunta4" name="resposta4">
+                </form>
+            </section>
+            <!--Pergunta 5: Seleção Múltipla-->
+            <section>
+                <h2> Pergunta 5: Quais dessas linguagens são tipadas estaticamente?</h2>
+                <form>
+                    <input type="checkbox" id="p5a" name="linguagem" value="java">
+                    <label for="java">Java</label><br>
+                    <input type="checkbox" id="p5b" name="linguagem" value="python">
+                    <label for="python">Python</label><br>
+                    <input type="checkbox" id="p5c" name="linguagem" value="csharp">
+                    <label for="csharp">C#</label><br>
+                    <input type="checkbox" id="p5d" name="linguagem" value="javascript">
+                    <label for="javascript">JavaScript</label><br>
+                </form>
+            </section>
+            <!--Pergunta 6: Upload de Arquivo-->
+            <section>
+                <h2> Pergunta 6: Faça upload de um arquivo de código fonte (ex: .py, .java, .cpp)
+                </h2>
+                <form>
+                    <input type="file" id="p6" name="pergunta6" accept=".py,.java,.cpp,.js,.cs,.html,.css">  
+                </form>
+            </section>
+            <!--Pergunta 7: Menu Suspenso-->
+            <section>
+                <h2> Pergunta 7: Qual é o seu nível de experiência em programação?</h2>
+                <form>
+                    <select id="p7" name="pergunta7">
+                        <option value="iniciante">Iniciante</option>
+                        <option value="intermediario">Intermediário</option>
+                        <option value="avancado">Avançado</option>
+                        <option value="especialista">Especialista</option>
+                    </select>
+                </form>
+            </section>
+            <!--Pergunta 8: Imagem-->
+            <section>
+                <h2> Pergunta 8: Qual dessas imagens representa o logotipo do Python?</h2>
+                <form>
+                    <input type="radio" id="p8a" name="pergunta8" value="logo1">
+                    <label for="p8a"><img src="https://www.python.org/static/community_logos/python-logo.png" alt="Logo Python" width="100"></label><br>
+                    <input type="radio" id="p8b" name="pergunta8" value="logo2">
+                    <label for="p8b"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Logo JavaScript" width="100"></label><br>
+                    <input type="radio" id="p8c" name="pergunta8" value="logo3">
+                    <label for="p8c"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" alt="Logo C#" width="100"></label><br>
+                    <input type="radio" id="p8d" name="pergunta8" value="logo4">
+                    <label for="p8d"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="Logo C" width="100"></label><br>
+                </form>
+            </section>
+            <!--Tabela de Pontuação-->
+            <section>
+                <h2>Tabela de Pontuação</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Nível</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Iniciante</td>
+                        <td> Você ainda tem muito o que aprender!</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3-5</td>
+                        <td>Intermediário</td>
+                        <td> Bom trabalho! Você tem uma boa base.</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6-7</td>
+                        <td>Avançado</td>  
+                        <td> Excelente! Você domina muitos conceitos de programação.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Especialista</td>  
+                        <td> Parabéns! Você é um verdadeiro mestre da programação!
+                        </td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                <em>Boa sorte na proxima!</em>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <!--Lista de Respostas-->
+            <section>
+                <h2>Verifique suas Respostas</h2>
+                <details>
+                    <summary>Clique para ver as respostas corretas</summary>
+                <ol>
+                    <li>HTML</li>
+                    <li>Programação Orientada a Objetos</li>
+                    <li>Exemplo de senha forte: P@ssw0rd!</li>
+                    <li>1991</li>
+                    <li>Java, C#</li>
+                    <li>(Arquivo enviado pelo usuário)</li>
+                    <li>(Nível selecionado pelo usuário)</li>
+                    <li>Imagem do logotipo do Python</li>
+                </ol> 
+                </details>
+            </section>
+            <!--Formulário de Feedbak-->
+            <section>
+                <h2>Deixe seu Feedback</h2>
+                <form>
+                    <fieldset>
+                        <legend>Seu Feedback é Importante!</legend>
+                        <p>Por favor, compartilhe suas opiniões e sugestões para melhorar nosso quiz.</p>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Seu email"><br>
+                    <label for="feedback">Feedback:</label><br>
+                    <textarea id="feedback" name="feedback" rows="6" cols="60" placeholder="Escreva seu feedback aqui"></textarea><br>
+                    <button onclick="alert('Obrigado pelo seu feedback!')">Enviar Feedback</button>
+                    </fieldset>
+                </form>
+        </main>
+        <footer>
+            <p>&copy; 2025 Quiz Para Programadores. Todos os direitos reservados.</p>
+            <p>Para conhecer outros quizzes <a href="https://google.com" target="_blank">Clique aqui</a>
+        </footer>
+    </body>
+</html>
+git init                   # inicia o repositório local
+git add .                 # adiciona todos os arquivos
+git commit -m "Meu primeiro projeto"  # cria o commit (salva a versão)
+git branch -M main        # define a branch principal
+git remote add origin https://github.com/juanlucas-jpg/Juan.git  # conecta ao repositório remoto
+git push -u origin main   # envia para o GitHub
